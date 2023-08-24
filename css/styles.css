@@ -482,14 +482,14 @@ img {
 .footer-form-box {
 }
 .form-title {
-  color: var(--white);
+  color: #ffffff;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .footer-form {
   display: flex;
