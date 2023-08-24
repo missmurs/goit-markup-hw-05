@@ -852,7 +852,8 @@ textarea {
   padding-left: 38px;
 }
 .modal-form-input:hover,
-.modal-form-input:focus {
+.modal-form-input:focus,
+.modal-form-input::icon-form {
   fill: #4d5ae5;
   border-color: #4d5ae5;
 }
