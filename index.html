@@ -483,12 +483,17 @@
                     <textarea class="modal-form-textarea" name="user-comment" id="user-comment" rows="8"
                         placeholder="Text input"></textarea>
                 </div>
-                <div class="modal-form-item">
-                    <label for="modal-form-agrement"></label>
-                    <input class="checkbox" type="checkbox" name="user-agrement" id="modal-form-agrement">
-                    <span class="modal-form-desc">I accept the terms and conditions of the <a href="" target="_blank"
-                            class="privacy-policy" rel="noopener noreferrer">Privacy
-                            Policy</a></span>
+                <div class="modal-form-agrement">
+                    <input class="checkbox visually-hidden" type="checkbox" name="user-privacy" id="user-privacy"
+                        value="true">
+                    <label class="privacy" for="user-privacy"><span class="privacy-text"> <svg class="icon-form"
+                                width="18" height="24">
+                                <use href="./images/icons.svg#icon-Checkbox"></use>
+                            </svg>
+                            I accept the terms and conditions of the <a href="" target="_blank" class="privacy-policy"
+                                rel="noopener noreferrer">Privacy
+                                Policy</a></span></label>
+
                 </div>
                 <button class="btn-form" type="submit">Send</button>
             </form>
