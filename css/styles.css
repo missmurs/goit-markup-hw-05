@@ -832,8 +832,11 @@ textarea {
   display: block;
   margin-bottom: 4px;
 }
-.modal-form-filed {
+.modal-form-item {
   margin-bottom: 8px;
+}
+.modal-form-filed {
+  position: relative;
 }
 .modal-form-input {
   border-radius: 4px;
