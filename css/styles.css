@@ -871,7 +871,9 @@ textarea {
 .modal-form-textarea {
   width: 100%;
   height: 120px;
+  font-size: 12px;
   line-height: 1.17;
+  letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -920,8 +922,16 @@ textarea {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  fill: transparent;
 }
+.icon-checkmark {
+  fill: currentColor;
+}
+input[type="checkbox"]:checked + .icon-checkmark {
+  background-color: var(--ocean);
+  border: none;
+  fill: #f4f4fd;
+}
+
 .privacy-policy {
   color: var(--iris, #4d5ae5);
 }
