@@ -922,11 +922,10 @@ textarea {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  fill: transparent;
 }
-.icon-checkmark {
-  fill: currentColor;
-}
-.checkbox:checked + .privacy-text {
+
+input[type="checkbox"]:checked + .privacy-text {
   background-color: var(--ocean);
   border: none;
   fill: #f4f4fd;
