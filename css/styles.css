@@ -851,10 +851,10 @@ textarea {
   padding-left: 38px;
 }
 .modal-form-input:focus {
-  border-color: #404bbf;
+  border-color: #4d5ae5;
 }
 .modal-form-input:focus + .icon-form {
-  fill: var(--ocean);
+  fill: #4d5ae5;
 }
 .icon-form {
   position: absolute;
