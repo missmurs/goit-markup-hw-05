@@ -790,7 +790,7 @@ textarea {
   resize: none;
 }
 
-.form-title {
+.modal-form-title {
   color: var(--navyblue, #2e2f42);
   text-align: center;
   font-family: Roboto;
