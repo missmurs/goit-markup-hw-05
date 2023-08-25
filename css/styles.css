@@ -926,7 +926,9 @@ textarea {
 }
 .btn-form {
   margin-top: 24px;
-  display: inline-flex;
+  display: block;
+  min-width: 169px;
+  height: 56px;
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
@@ -937,7 +939,7 @@ textarea {
   text-align: center;
 
   /* Button Text */
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
