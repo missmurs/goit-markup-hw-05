@@ -446,7 +446,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--white);
+  color: #ffffff;
   margin-bottom: 16px;
 }
 .social-media-list {
@@ -479,8 +479,7 @@ img {
   fill: var(--cloud);
 }
 /* footer form */
-.footer-form-box {
-}
+
 .form-title {
   color: #ffffff;
   font-family: Roboto;
@@ -818,8 +817,7 @@ textarea {
   letter-spacing: 0.32px;
   padding-bottom: 16px;
 }
-.modal-form {
-}
+
 .modal-form-label {
   color: var(--lightslate, #8e8f99);
   font-family: Roboto;
