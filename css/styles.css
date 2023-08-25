@@ -925,7 +925,7 @@ textarea {
   fill: transparent;
 }
 
-input[type="checkbox"]:checked + .privacy-text {
+input:checked + label > span {
   background-color: var(--ocean);
   border: none;
   fill: #f4f4fd;
