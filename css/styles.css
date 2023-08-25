@@ -802,7 +802,7 @@ textarea {
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .modal-form-label {
