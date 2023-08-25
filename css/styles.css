@@ -926,7 +926,7 @@ textarea {
 .icon-checkmark {
   fill: currentColor;
 }
-input[type="checkbox"]:checked + .icon-checkmark {
+.checkbox:checked + .privacy-text {
   background-color: var(--ocean);
   border: none;
   fill: #f4f4fd;
